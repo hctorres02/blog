@@ -1,0 +1,32 @@
+main {
+    padding-top: 0 !important;
+}
+
+table thead th {
+    text-transform: capitalize;
+}
+
+table tbody details {
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important;
+}
+
+table tbody details summary span {
+    font-weight: 500;
+    color: var(--text);
+    line-height: var(--line-height);
+    display: block;
+}
+
+table tbody details a kbd {
+    color: var(--primary);
+    background-color: var(--background);
+}
+
+table[role=grid] tbody tr:nth-child(odd) kbd {
+    background-color: transparent;
+}
+
+table details a kbd:hover, table details a kbd:focus {
+    color: var(--primary-hover);
+}

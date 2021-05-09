@@ -1,0 +1,32 @@
+{
+    "name": "hctorres02/blog",
+    "description": "Deployment of my projects in a real application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HC Torres",
+            "email": "hctorres02@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/hctorres02/router"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/hctorres02/querybuilder"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "require": {
+        "hctorres02/router": "dev-main",
+        "hctorres02/querybuilder": "dev-main"
+    }
+}
