@@ -1,6 +1,6 @@
 <?php
 
-use hctorres02\router\Router;
+use HCTorres02\Router\Router;
 use src\controllers\AuthController;
 use src\controllers\CategoryController;
 use src\controllers\ErrorController;
